@@ -246,7 +246,7 @@ def read_likes():
 #translate
 def get_transtlation():
     goodies = str3.split("/")
-    auth_key = "d3fa9b35-f33c-14e8-075b-54b3705f5ee4:fx"
+    auth_key = ""
     translator = deepl.Translator(auth_key)
     try:
         send_message(str(translator.translate_text(text=goodies[1], target_lang=goodies[2]).text))
@@ -265,7 +265,7 @@ def auto_backlog():
 #news
 #def get_news():
     #title = []
-    #api_key = "a0606776aad44222b891df427a5e96a5"
+    #api_key = ""
     #newsapi = NewsApiClient(api_key)
     #goodies = str3.split(" ")
     #top_headlines = newsapi.get_top_headlines(sources='reuters', language='en', page_size=1)
