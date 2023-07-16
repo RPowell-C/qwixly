@@ -1,0 +1,128 @@
+{
+	"help" :
+	{
+		"name" : "Help",
+		"description" : "The very basic help command",
+		"usage" : "(.)help"
+	},
+	"wheelie":
+	{
+		"name" : "Wheelie",
+		"description" : "The command that gives you more information on commands, DO NOT put in the period before command",
+		"usage" : "(.)wheelie [command]"
+	},
+	"ballot":
+	{
+		"name" : "ballot",
+		"description" : "Shows the canidates or options for multi option voting, gives you the canidate's username to the left of the username or option",
+		"usage" : "(.)ballot"
+	},
+	"castfor" :
+	{
+		"name" : "castfor",
+		"description" : "FOR CITIZENS ONLY - casts votes for a certain canidate or option [YOU NEED TO LOOK AT BALLOT BEFOREHAND]",
+		"usage" : "(.)castfor [username]"
+	},
+	"srule" :
+	{
+		"name" : "srule",
+		"description" : "Displays a specific rule",
+		"usage" : "(.)srule [rule number]"
+	},
+	"gm" :
+	{
+		"name" : "good morning",
+		"description" : "tell everyone good morning",
+		"usage" : "(.gm)"
+	},
+	"bday" :
+	{
+		"name" : "birthday",
+		"description" : "Check on the bot's birthday",
+		"usage" : "(.)bday"
+	},
+	"disclosure" :
+	{
+		"name" : "disclosure",
+		"description" : "displays a disclosure about logging",
+		"usage" : "(.)disclosure"
+	},
+	"countvotes" :
+	{
+		"name" : "countvotes",
+		"description" : "count the votes of the current issue (this is related to but not one of the election commands)",
+		"usage" : "(.)countvotes"
+	},
+	"vote" :
+	{
+		"name" : "vote",
+		"description" : "cast a vote for the current issue (this is not castfor, please do not confuse these) takes either yay or nay as a required argument",
+		"usage" : "(.)vote [yay or nay]"
+	},
+	"issue" : 
+	{
+		"name" : "issue",
+		"description" : "displays the issue for the vote command",
+		"usage" : "(.)issue"
+	},
+	"urbandict" :
+	{
+		"name" : "urban dictionary",
+		"description" : "Ah yes, a fun one, gives you the definition for an urban dictionary term, takes the term after a slash",
+		"usage" : "(.)urbandict/[term]"
+	},
+	"langhelp" :
+	{
+		"name" : "langhelp",
+		"description" : "shows the languageID for the translation command",
+		"usage" : "(.)langhelp"
+	},
+	"translate" : 
+	{
+		"name" : "translate",
+		"description" : "translate any text into a language provided by langhelp [USES A SLASH INSTEAD OF A SPACE]",
+		"usage" : "(.)translate/[text]/[languageID]"
+	},
+	"joke" :
+	{
+		"name" : "joke",
+		"description" : "tells a joke",
+		"usage" : "(.)joke"
+	},
+	"whatsnew" :
+	{
+		"name" : "whatsnew",
+		"description" : "see what's new",
+		"usage" : "(.)whatsnew"
+	},
+	"alert" : 
+	{
+		"name" : "alert",
+		"description" : "shows a list of pedos and creeps",
+		"usage" : "(.)alert"
+	},
+	"wholikes" : 
+	{
+		"name" : "wholikes",
+		"description" : "check to see who likes the bot",
+		"usage" : "(.)wholikes"
+	},
+	"ilike" :
+	{
+		"name" : "ilike",
+		"description" : "[LEGACY COMMAND] tell the bot you like it - you have to put your own username at the end",
+		"usage" : "(.)ilike [username]"
+	},
+	"drinks" :
+	{
+		"name" : "drinks",
+		"description" : "[LEGACY COMMAND] send the entire chat or someone specific a drink",
+		"usage" : "(.)drinks [(optional) username]"
+	},
+	"fight" :
+	{
+		"name" : "fight",
+		"description" : "does some math based on the usernames provided and determines a winner based on a higher score",
+		"usage" : "(.)fight [username1] [username2]"
+	}
+}

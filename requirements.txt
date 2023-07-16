@@ -1,0 +1,4 @@
+selenium
+pytz
+deepl
+newsapi
