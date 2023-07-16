@@ -1,0 +1,21 @@
+{
+	"login": 
+		{
+			"username" : "",
+			"password" : ""
+		},
+	"systemsettings": 
+		{
+			"version" : "",
+			"whatsnew" : ""
+		},
+	"radioShit" :
+		{
+			"radioURL" : "",
+			"broadcastURL" : ""
+		},
+		"entrances" :
+		{
+			"entrances" : [""]
+		}
+}
