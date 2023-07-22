@@ -751,7 +751,7 @@ while True:
 #langhelp
         if ".langhelp" in str3:
             writeToLogs("INFO - [" + users + " needed some langhelp]")
-            auth_key = "d3fa9b35-f33c-14e8-075b-54b3705f5ee4:fx"
+            auth_key = ""
             translator = deepl.Translator(auth_key)
             for language in translator.get_target_languages():
                 send_message(str(f"{language.name} ({language.code})"))
