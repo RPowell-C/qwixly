@@ -11,3 +11,5 @@ As many of you are probably aware I kept this project closed source for a long t
 
 # Support
 https://y99.in/r/1164150
+
+# this has moved to the groups repo
